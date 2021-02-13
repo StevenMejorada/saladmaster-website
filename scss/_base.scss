@@ -1,0 +1,28 @@
+// COLORS
+$color-primary: #218795;
+$color-primary-light: #aee3eb;
+$color-primary-dark: #135057;
+
+$color-dark: #464646;
+$color-light: #fff;
+
+// Fonts
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "Libre Baskerville", serif;
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $font-primary;
+}

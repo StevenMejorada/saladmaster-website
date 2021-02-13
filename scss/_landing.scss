@@ -1,0 +1,22 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  height: 70vh;
+
+
+  &__span {
+    font-size: 10rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    font-family: $font-secondary;
+  }
+
+  &__span-link {
+    text-decoration: none;
+    color: $color-primary-dark;
+  }
+}

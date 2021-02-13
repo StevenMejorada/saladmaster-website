@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: $color-primary;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &__nav-list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__nav-item {
+    color: $color-dark;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+  }
+
+  &__nav-link {
+    text-decoration: none;
+    color: $color-dark;
+
+    transition: all 0.2s;
+
+    &:hover {
+      border-bottom: 3px solid $color-primary;
+    }
+  }
+}
