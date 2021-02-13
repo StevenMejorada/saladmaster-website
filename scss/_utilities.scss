@@ -2,8 +2,8 @@
   position: absolute;
   object-fit: cover;
   width: 100%;
-  z-index: -1;
   height: 100vh;
+  z-index: -1;
   filter: opacity(0.1);
 }
 
@@ -16,4 +16,8 @@
 
 .mb-sm {
   margin-bottom: 1.5rem;
+}
+
+.lh-sm {
+  line-height: 1.3;
 }

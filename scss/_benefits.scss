@@ -1,0 +1,18 @@
+.benefits {
+  margin: 18rem 0 0;
+
+  &__group {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__group-text {
+    flex: 2;
+  }
+
+  &__group-img {
+    flex: 1;
+    height: 40vh;
+    object-fit: cover;
+  }
+}
