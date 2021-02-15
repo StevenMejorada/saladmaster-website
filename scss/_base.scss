@@ -13,6 +13,11 @@ $color-light: #fff;
 $font-primary: "Montserrat", sans-serif;
 $font-secondary: "Libre Baskerville", serif;
 
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
 *,
 *::after,
 *::before {
@@ -24,6 +29,10 @@ $font-secondary: "Libre Baskerville", serif;
 html {
   font-size: 62.5%; // 1rem = 10px;
   scroll-behavior: smooth;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 body {

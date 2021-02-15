@@ -16,6 +16,9 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
+  @media only screen and (max-width: 62.5em) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box;
@@ -106,7 +109,7 @@ body {
   .contact__form {
     background-color: #aee3eb;
     border-radius: 50px;
-    width: 40rem;
+    width: 80%;
     padding: 5rem; }
   .contact__form-control {
     margin-bottom: 2rem;
@@ -130,7 +133,7 @@ body {
     height: 4rem; }
   .contact__form-textarea {
     font-family: inherit;
-    height: 10rem; }
+    height: 20rem; }
   .contact__form-small {
     font-weight: 500;
     color: red;
@@ -187,6 +190,9 @@ body {
   align-items: start;
   height: 70vh;
   animation: moveInLeft 1.5s ease; }
+  @media only screen and (max-width: 62.5em) {
+    .landing {
+      align-items: center; } }
   .landing__span {
     font-size: 10rem;
     font-weight: 700;
