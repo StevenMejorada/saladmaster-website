@@ -87,7 +87,7 @@ body {
   .contact__socials {
     display: flex;
     justify-content: flex-start;
-    margin-top: 4rem; }
+    margin-top: 10rem; }
   .contact__socials-icon {
     font-size: 4rem;
     color: #464646; }
@@ -210,6 +210,7 @@ body {
   top: 0;
   left: 0;
   object-fit: cover;
+  object-position: top left;
   width: 100%;
   height: 100vh;
   z-index: -1;
