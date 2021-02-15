@@ -7,13 +7,15 @@
   <title>Saladmaster website</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <img class ="background-img"src="https://images.pexels.com/photos/4259140/pexels-photo-4259140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+  <!-- <img class ="background-img"src="https://images.pexels.com/photos/4259140/pexels-photo-4259140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> -->
+  <img class ="background-img"src="images/family.jpg" alt="">
   <!-- HEADER -->
   <header class="header container">
-    <a href="#" class="header__logo"><img class="header__logo-img" src="images/logo.jfif">SK3 Healthy Habits Ltd</a>
+    <a href="#" class="header__logo" ><img class="header__logo-img" src="images/logo.jfif">SK3 Healthy Habits Ltd</a>
     <nav class="header__nav">
       <ul class="header__nav-list">
         <li class="header__nav-item"><a class="header__nav-link" href="#">Home</a></li>
@@ -25,13 +27,13 @@
   </header>
 <!--LANDING PAGE-->
   <section class="landing container">
-    <h2 class="heading-2">Change your life with <span class="landing__span"><a class="landing__span-link" href="https://saladmaster.com/">Saladmaster</a></span></h2>
+    <h2 class="heading-2">Change your life with <span class="landing__span"><a class="landing__span-link" href="https://saladmaster.com/" target="_blank">Saladmaster</a></span></h2>
     <a href="#" class="btn btn--big">Book a demo</a>
   </section>
 <!-- BENEFITS PAGE -->
   <section class="benefits">
     <div class="container">
-      <h1 class="heading-1">Why Saladmaster?</h1>
+      <h1 class="heading-1 mb-lg">Why Saladmaster?</h1>
       
       <div class="benefits__group">
         <div class="benefits__group-text">
@@ -57,7 +59,56 @@
         </div>
         <img src="https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="benefits__group-img">
       </div>
+
+      
     </div>
+  </section>
+
+  <!-- CONTACT PAGE -->
+  <section class="contact">
+    <div class="container contact__container"> 
+      <div class="contact__details">
+        <h1 class="heading-1 mb-sm">Want to know more?</h1>
+        <p class="paragraph mb-sm">Get to know us in Our Story page by clicking the button below. We also have our social media accounts below.
+        </p>
+        <p class="paragraph mb-md">If you want a personal demo, fill out the form on right.</p>
+        <a href="#" class="btn btn--big">Our Story</a>
+        <div class="contact__socials">
+          <a href="#" class="contact__socials-icon contact__socials-icon-fb"><i class="fab fa-facebook-square "></i></a>
+          <a href="#" class="contact__socials-icon contact__socials-icon-ig">  <i class="fab fa-instagram "></i></a>
+          <a href="#" class="contact__socials-icon contact__socials-icon-yt"><i class="fab fa-youtube "></i></a>
+          
+        
+          
+        </div>
+      </div>
+      <div class="contact__form-container">
+        <form class="contact__form">
+          <h3 class="heading-3 mb-sm">Booking form</h3>
+          <div class="contact__form-control">
+            <label class="contact__form-label" for="name">Name:</label>
+            <input class="contact__form-input" type="text" name="name" id="name"placeholder="Name">
+            <small class="contact__form-small">Error</small>
+          </div>
+         
+          <div class="contact__form-control">
+            <label class="contact__form-label" for="email">Email:</label>
+            <input class="contact__form-input" type="email" name="email" id="email" placeholder="Email">
+            <small class="contact__form-small">Error</small>
+          </div>
+
+          <div class="contact__form-control">
+            <label class="contact__form-label" for="textarea">Message:</label>
+            <textarea class="contact__form-textarea" name="textarea" id="textarea" placeholder="Message"></textarea>
+            <small class="contact__form-small">Error</small>          
+          </div>
+
+          <button class="btn btn--big" type="submit">Submit</button>
+
+        </form>
+      </div>
+    </div>
+    
   </section>
 </body>
 </html>

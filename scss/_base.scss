@@ -4,6 +4,7 @@ $color-primary-light: #aee3eb;
 $color-primary-dark: #135057;
 $color-primary-darker: #092939;
 
+$color-grey: #464646;
 $color-light: #fff;
 
 // Fonts
@@ -20,6 +21,7 @@ $font-secondary: "Libre Baskerville", serif;
 
 html {
   font-size: 62.5%; // 1rem = 10px;
+  scroll-behavior: smooth;
 }
 
 body {

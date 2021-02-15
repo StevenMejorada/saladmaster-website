@@ -1,0 +1,96 @@
+.contact {
+  margin: 10rem 0 10rem;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__details {
+    padding-right: 2rem;
+    flex: 1;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4rem;
+  }
+  &__socials-icon {
+    font-size: 4rem;
+    color: $color-grey;
+
+    &:not(:last-child) {
+      margin-right: 5rem;
+    }
+
+    &-fb:hover {
+      color: #3b5998;
+    }
+
+    &-ig:hover {
+      color: #dd2a7b;
+    }
+
+    &-yt:hover {
+      color: #c4302b;
+    }
+  }
+  // FORM
+  &__form-container {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  &__form {
+    background-color: $color-primary-light;
+    border-radius: 50px;
+    width: 40rem;
+    padding: 5rem;
+  }
+
+  &__form-control {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  &__form-label {
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  &__form-input,
+  &__form-textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25%);
+    padding: 1rem;
+    font-size: 1.6rem;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &__form-input {
+    height: 4rem;
+  }
+
+  &__form-textarea {
+    font-family: inherit;
+    height: 10rem;
+  }
+
+  &__form-small {
+    font-weight: 500;
+    color: red;
+    font-size: 1.2rem;
+    position: absolute;
+    visibility: hidden;
+  }
+}
