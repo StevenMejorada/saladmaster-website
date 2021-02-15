@@ -28,7 +28,7 @@
   }
 
   &__nav-item {
-    color: $color-dark;
+    color: $color-primary-darker;
     font-weight: 500;
     font-size: 1.5rem;
     margin: 0 2rem;
@@ -36,7 +36,7 @@
 
   &__nav-link {
     text-decoration: none;
-    color: $color-dark;
+    color: $color-primary-darker;
 
     transition: all 0.2s;
 
