@@ -1,0 +1,11 @@
+.footer {
+  background-color: $color-grey-dark;
+  color: white;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+  }
+}

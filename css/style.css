@@ -138,6 +138,15 @@ body {
     position: absolute;
     visibility: hidden; }
 
+.footer {
+  background-color: #292929;
+  color: white; }
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem; }
+
 .header {
   display: flex;
   justify-content: space-between;
