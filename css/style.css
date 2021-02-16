@@ -184,17 +184,19 @@ body {
       border-bottom: 3px solid #218795; }
 
 .landing {
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  height: 70vh;
+  height: calc(100vh - 10rem);
   animation: moveInLeft 1.5s ease; }
   @media only screen and (max-width: 62.5em) {
     .landing {
       align-items: center; } }
+  .landing__text-box {
+    transform: translateY(-100px); }
   .landing__span {
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 700;
     text-transform: uppercase;
     display: block;

@@ -1,18 +1,21 @@
 .landing {
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
 
-  height: 70vh;
+  height: calc(100vh - 10rem);
   animation: moveInLeft 1.5s ease;
 
   @media only screen and (max-width: $bp-large) {
     align-items: center;
   }
 
+  &__text-box {
+    transform: translateY(-100px);
+  }
   &__span {
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 700;
     text-transform: uppercase;
     display: block;
