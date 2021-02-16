@@ -16,16 +16,17 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
-  @media only screen and (max-width: 62.5em) {
+  @media only screen and (max-width: 75em) {
     html {
-      font-size: 50%; } }
+      font-size: 56.25%; } }
 
 body {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem; }
 
 .benefits {
-  margin: 18rem 0 0; }
+  margin: 10rem 0 0; }
   .benefits__group {
     display: flex;
     justify-content: center;
@@ -76,14 +77,17 @@ body {
 .btn:focus {
   outline: 0; }
 
+.btn--small {
+  font-size: 1.4rem; }
+
 .btn--big {
-  font-size: 1.8rem; }
+  font-size: 2.5rem; }
 
 .contact {
   margin: 10rem 0 10rem; }
   .contact__container {
     display: flex;
-    justify-content: space-between; }
+    justify-content: center; }
   .contact__details {
     padding-right: 2rem;
     flex: 1; }
@@ -109,14 +113,14 @@ body {
   .contact__form {
     background-color: #aee3eb;
     border-radius: 50px;
-    width: 80%;
+    width: 100%;
     padding: 5rem; }
   .contact__form-control {
     margin-bottom: 2rem;
     position: relative; }
   .contact__form-label {
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     display: block;
     margin-bottom: 0.5rem; }
   .contact__form-input, .contact__form-textarea {
@@ -126,7 +130,7 @@ body {
     border-radius: 3px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
     padding: 1rem;
-    font-size: 1.6rem; }
+    font-size: 1.8rem; }
     .contact__form-input:focus, .contact__form-textarea:focus {
       outline: 0; }
   .contact__form-input {
@@ -137,7 +141,7 @@ body {
   .contact__form-small {
     font-weight: 500;
     color: red;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     position: absolute;
     visibility: hidden; }
 
@@ -163,6 +167,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+  @media only screen and (max-width: 53.125em) {
+    .header__logo-text {
+      display: none; } }
   .header__logo-img {
     width: 6rem;
     height: 6rem;
@@ -174,7 +181,6 @@ body {
   .header__nav-item {
     color: #092939;
     font-weight: 500;
-    font-size: 1.5rem;
     margin: 0 2rem; }
   .header__nav-link {
     text-decoration: none;
@@ -182,17 +188,22 @@ body {
     transition: all 0.2s; }
     .header__nav-link:hover {
       border-bottom: 3px solid #218795; }
+  @media only screen and (max-width: 53.125em) {
+    .header__btn {
+      visibility: hidden;
+      display: none; } }
 
 .landing {
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: calc(100vh - 10rem);
   animation: moveInLeft 1.5s ease; }
-  @media only screen and (max-width: 62.5em) {
+  @media only screen and (max-width: 53.125em) {
     .landing {
-      align-items: center; } }
+      text-align: center; } }
   .landing__text-box {
     transform: translateY(-100px); }
   .landing__span {
@@ -201,6 +212,18 @@ body {
     text-transform: uppercase;
     display: block;
     font-family: "Libre Baskerville", serif; }
+    @media only screen and (max-width: 65.625em) {
+      .landing__span {
+        font-size: 10rem; } }
+    @media only screen and (max-width: 59.375em) {
+      .landing__span {
+        font-size: 9rem; } }
+    @media only screen and (max-width: 53.125em) {
+      .landing__span {
+        font-size: 8.5rem; } }
+    @media only screen and (max-width: 53.125em) {
+      .landing__span {
+        font-size: 7.5rem; } }
   .landing__span-link {
     text-decoration: none;
     color: #135057;
@@ -215,11 +238,11 @@ body {
   color: rgba(9, 41, 57, 0.9); }
 
 .heading-3 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #092939; }
 
 .paragraph {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.5; }
 
 .background-img {
@@ -231,10 +254,10 @@ body {
   width: 100%;
   height: 100vh;
   z-index: -1;
-  filter: opacity(0.1); }
+  filter: opacity(0.15); }
 
 .container {
-  max-width: 1100px;
+  max-width: 1150px;
   width: 100%;
   margin: 0 auto;
   padding: 2rem; }
