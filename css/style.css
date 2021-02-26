@@ -97,6 +97,9 @@ body {
 
 .btn--big {
   font-size: 2.5rem; }
+  @media only screen and (max-width: 46.875em) {
+    .btn--big {
+      font-size: 1.4rem; } }
 
 .contact {
   margin: 10rem 0 15rem; }
@@ -146,7 +149,7 @@ body {
     padding: 5rem; }
     @media only screen and (max-width: 46.875em) {
       .contact__form {
-        width: 90%; } }
+        padding: 3rem; } }
   .contact__form-control {
     margin-bottom: 2rem;
     position: relative; }

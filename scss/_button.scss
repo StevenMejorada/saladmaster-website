@@ -36,5 +36,9 @@
   }
   &--big {
     font-size: 2.5rem;
+
+    @media only screen and (max-width: $bp-smaller) {
+      font-size: 1.4rem;
+    }
   }
 }
