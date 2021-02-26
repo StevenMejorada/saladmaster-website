@@ -1,10 +1,10 @@
 .benefits {
-  margin: 10rem 0 0;
+  margin: 5rem 0 0;
 
   &__group {
     display: flex;
     justify-content: center;
-    padding: 0 4rem;
+    padding: 0;
     position: relative;
 
     @media only screen and (max-width: $bp-smaller) {
@@ -18,26 +18,31 @@
     &:nth-of-type(even)::before {
       content: "";
       width: 100%;
-      height: 145%;
+      height: 140%;
       background-color: $color-primary-light;
       position: absolute;
       z-index: -1;
       top: -50px;
       left: 0;
+
+      @media only screen and (max-width: $bp-smaller) {
+        height: 120%;
+      }
     }
   }
 
   &__group-text {
     flex: 1;
-    padding: 0 2rem;
+
     @media only screen and (max-width: $bp-smaller) {
       order: 2;
+      padding: 0 2rem;
     }
   }
 
   &__group-img-container {
     flex: 1;
-    min-width: 200px;
+    min-width: 100px;
 
     @media only screen and (max-width: $bp-smaller) {
       order: 1;
@@ -45,6 +50,7 @@
     }
   }
   &__group-img {
+    padding: 0 2rem;
     object-fit: cover;
     width: 100%;
 

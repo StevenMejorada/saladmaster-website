@@ -9,7 +9,7 @@
   animation: moveInLeft 1.5s ease;
 
   &__text-box {
-    transform: translateY(-100px);
+    transform: translateY(-2.5rem);
     @media only screen and (max-width: $bp-smaller) {
       text-align: center;
     }
